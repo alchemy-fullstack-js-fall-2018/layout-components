@@ -38,6 +38,9 @@ Every Component should have a snapshot test.
 ## Rubric
 
 Snapshot tests: 3pts
+
 Components: 2pts
+
 Webpack: 3pts
+
 Consistency: 2pt
