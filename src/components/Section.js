@@ -8,11 +8,11 @@ export default class Section extends Component {
     });
 
     return `
-      <main>
+      <section>
         <div class="${styles.container}">
           ${images.join(' ')}
         </div>
-      </main>
+      </section>
     `;
   }
 }
