@@ -2,6 +2,7 @@ import Component from './Component';
 import Header from './Header';
 import Section from './Section';
 import Footer from './Footer';
+import Image from './Image';
 
 export default class App extends Component {
   render() {
@@ -10,15 +11,16 @@ export default class App extends Component {
     });
 
     const topSection = new Section({
-      content: 'Hey I\'m a section'
+      children: ['liver.jpg', '19.jpg', 'reuben.jpg'].map(img => new Image({ content: img }))
     });
 
     const midSection = new Section({
-      content: 'Hey me too'
+      children: ['liver.jpg', '19.jpg', 'reuben.jpg'].map(
+        img => new Image({ content: img }))
     });
 
     const footer = new Footer({
-      text:  '&copy; 2018 Alex Rankin'
+      text: '&copy; 2018 Alex Rankin'
     });
 
     return `

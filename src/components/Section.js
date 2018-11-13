@@ -3,10 +3,10 @@ import styles from './Section.css';
 
 export default class Section extends Component {
   render() {
-    const content = this.props.content;
+    const children = this.props.children.map(child => child.render());
 
     return `
-      <section class="${styles.section}">${content}</section>
+      <section class="${styles.section}">${children}</section>
     `;
   }
 }
