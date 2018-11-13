@@ -1,4 +1,5 @@
 import Component from './Component';
+import styles from './Section.css';
 
 export default class Section extends Component {
   render() {
@@ -8,7 +9,7 @@ export default class Section extends Component {
 
     return `
       <main>
-        <div>
+        <div class="${styles.container}">
           ${images.join(' ')}
         </div>
       </main>
