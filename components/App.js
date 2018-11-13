@@ -1,6 +1,7 @@
 import Component from './Component';
 import Header from './Header';
 import Footer from './Footer';
+import Section from './Section';
 
 export default class App extends Component {
   render() {
@@ -12,9 +13,15 @@ export default class App extends Component {
       content: 'foooooteeerrrrr'
     });
 
+    const section = new Section({
+      content: 'section'
+    });
+
     return `
       ${header.render()}
       <h1>${this.props.message}</h1>
+
+      ${section.render()}
 
       ${footer.render()}
     `;
