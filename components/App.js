@@ -14,7 +14,7 @@ export default class App extends Component {
     });
 
     const section = new Section({
-      content: 'section'
+      sectionContent: 'section'
     });
 
     return `
