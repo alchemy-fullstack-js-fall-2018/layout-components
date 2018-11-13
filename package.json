@@ -19,6 +19,12 @@
     "url": "https://github.com/claireflanagan/layout-components/issues"
   },
   "homepage": "https://github.com/claireflanagan/layout-components#readme",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
