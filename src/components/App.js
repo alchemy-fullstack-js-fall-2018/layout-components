@@ -2,6 +2,7 @@ import Component from './Component';
 import Header from './Header';
 import Section from './Section';
 import Footer from './Footer';
+import styles from './App.css';
 
 export default class App extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class App extends Component {
     })
 
     return `
+    <h1 class="${styles.main}">${this.props.message}</h1>
     ${header.render()}
     ${section1.render()}
     ${section2.render()}
