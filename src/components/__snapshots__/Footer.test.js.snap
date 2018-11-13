@@ -6,16 +6,16 @@ exports[`Footer Component should be a footer 1`] = `
       <h1>Contact</h1>
       <div class=\\"icons\\">
         
-      <a id=\\"undefined\\">
-        <i class=\\"undefined\\"></i>
+      <a id=\\"gmail\\">
+        <i class=\\"far fa-envelope\\"></i>
       </a>
        
-      <a id=\\"undefined\\">
-        <i class=\\"undefined\\"></i>
+      <a id=\\"linkedin\\">
+        <i class=\\"fab fa-linkedin-in\\"></i>
       </a>
        
-      <a id=\\"undefined\\">
-        <i class=\\"undefined\\"></i>
+      <a id=\\"github\\">
+        <i class=\\"fab fa-github\\"></i>
       </a>
       
       </div>
