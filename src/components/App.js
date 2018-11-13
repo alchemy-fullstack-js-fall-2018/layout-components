@@ -4,7 +4,7 @@ import Header from './Header';
 export default class App extends Component {
   render() {
     const header = new Header({
-      links: ['about', 'blog', 'contact']
+      links: ['About', 'Unnecessary Fun Facts', 'Dog Photos']
     });
 
     return `

@@ -1,0 +1,18 @@
+.header {
+  align-items: center;
+  display: flex;
+  margin: 2em;
+  #logo, .nav {
+    flex: 1;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #598381;
+    &:hover {
+      color: #177E89;
+    }
+  }
+}
