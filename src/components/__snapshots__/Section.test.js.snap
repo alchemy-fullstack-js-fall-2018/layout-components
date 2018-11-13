@@ -1,7 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Footer should be a footer 1`] = `"<footer class=\\"footer\\"><p>Created by Joe Schmo, &copy 2018</p></footer>"`;
-
 exports[`Section should be a section 1`] = `
 "
             <section class=\\"section\\">
