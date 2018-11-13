@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should be a footer 1`] = `"<footer class=\\"footer\\"><p>Created by Joe Schmo, &copy 2018</p></footer>"`;
+
+exports[`Section should be a section 1`] = `
+"
+            <section class=\\"section\\">
+                <h2>I Like Coding</h2>
+                <p>It's such a relief to be writing JavaScript again.</p> <p>After CSS, it feels like coming home.</p>
+            </section>"
+`;
