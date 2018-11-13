@@ -5,11 +5,20 @@ export default class Footer extends Component {
 
   render() {
     const contactIcons = this.props.contactIcons.map(icon => {
-      return `<i class="${icon}"></i>`;
+      return `
+      <a id="${styles[icon.id]}">
+        <i class="${icon.class}"></i>
+      </a>
+      `;
     });
 
     return `
-    <footer class="${styles.icons}">${contactIcons.join(' ')}</footer>
+    <footer>
+      <h1>Contact</h1>
+      <div class="${styles.icons}">
+        ${contactIcons.join(' ')}
+      </div>
+    </footer>
     `;
   }
 }

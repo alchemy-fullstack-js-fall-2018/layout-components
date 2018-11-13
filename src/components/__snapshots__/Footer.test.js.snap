@@ -2,6 +2,23 @@
 
 exports[`Footer Component should be a footer 1`] = `
 "
-    <footer><i class=\\"far fa-envelope\\"></i> <i class=\\"fab fa-linkedin-in\\"></i> <i class=\\"fab fa-github\\"></i></footer>
+    <footer>
+      <h1>Contact</h1>
+      <div class=\\"icons\\">
+        
+      <a id=\\"undefined\\">
+        <i class=\\"undefined\\"></i>
+      </a>
+       
+      <a id=\\"undefined\\">
+        <i class=\\"undefined\\"></i>
+      </a>
+       
+      <a id=\\"undefined\\">
+        <i class=\\"undefined\\"></i>
+      </a>
+      
+      </div>
+    </footer>
     "
 `;

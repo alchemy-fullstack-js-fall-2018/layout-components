@@ -1,8 +1,13 @@
+
+  h1 {
+    text-align: center;
+  }
+
 .icons {
-  margin-top: 25vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
 
   i {
     flex-basis: auto;
@@ -15,9 +20,10 @@
     color: blue;
   }
   #github{
-    opacity: 0.9;
+    opacity: 0.85;
     &:hover {
       opacity: 1;
     }
   }
+
 }
