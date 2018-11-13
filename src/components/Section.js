@@ -1,16 +1,17 @@
 import Component from './Component';
-import styles from './Section.css';
 
 export default class Section extends Component {
   render() {
-    const images = this.props.images.map(({ image }) => {
-      return `<img src="${image}">`;
+    const children = this.props.children.map(child  => {
+      return child.render();
     });
+
+
 
     return `
       <section>
-        <div class="${styles.container}">
-          ${images.join(' ')}
+        <div>
+          ${children}
         </div>
       </section>
     `;
