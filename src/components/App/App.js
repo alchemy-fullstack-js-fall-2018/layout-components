@@ -6,6 +6,7 @@ import Section from '../Section/Section';
 import styles from './App.css';
 
 import { teams } from '../../data/teams';
+
 export default class App extends Component {
 
   render() {
