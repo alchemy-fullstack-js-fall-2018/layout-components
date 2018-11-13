@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should be a header 1`] = `
+"
+    <header class=header>
+
+      <nav class=desktopNav>
+        <a href=\\"/about\\">about</a>
+      </nav>
+
+      <nav class=mobileNav>
+        <label for=\\"hamburger\\"></label>
+        <input type=\\"checkbox\\" id=\\"hamburger\\"/>
+        <span class=hamburger></span>
+        <div class=mobileMenuContent>
+          <a href=\\"/about\\">about</a>
+        </div>
+      </nav>
+
+    </header>
+    "
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should be a footer 1`] = `
+"
+    <footer>
+      <h1>Contact</h1>
+      <div class=\\"icons\\">
+        
+      <a id=\\"gmail\\">
+        <i class=\\"far fa-envelope\\"></i>
+      </a>
+       
+      <a id=\\"linkedin\\">
+        <i class=\\"fab fa-linkedin-in\\"></i>
+      </a>
+       
+      <a id=\\"github\\">
+        <i class=\\"fab fa-github\\"></i>
+      </a>
+      
+      </div>
+    </footer>
+    "
+`;
