@@ -1,0 +1,42 @@
+{
+  "name": "layout-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidChhing/layout-components.git"
+  },
+  "author": "davidhchhing@gmail.com (https://github.com/davidchhing)",
+  "license": "ISC",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/DavidChhing/layout-components/issues"
+  },
+  "homepage": "https://github.com/DavidChhing/layout-components#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-babel": "^5.2.1"
+  }
+}
