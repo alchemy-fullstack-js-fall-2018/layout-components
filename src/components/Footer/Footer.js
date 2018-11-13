@@ -1,4 +1,4 @@
-import Component from './Component';
+import Component from '../Component/Component';
 
 import styles from './Footer.css';
 export default class Footer extends Component {

@@ -1,4 +1,4 @@
-import Component from './Component';
+import Component from '../Component/Component';
 
 import styles from './Section.css';
 export default class Section extends Component {

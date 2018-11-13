@@ -1,11 +1,11 @@
-import Component from './Component';
-import Header from './Header';
-import Footer from './Footer';
-import Section from './Section';
+import Component from '../Component/Component';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import Section from '../Section/Section';
 
 import styles from './App.css';
 
-import { teams } from '../data/teams';
+import { teams } from '../../data/teams';
 export default class App extends Component {
 
   render() {
