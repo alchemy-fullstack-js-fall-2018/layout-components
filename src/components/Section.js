@@ -6,6 +6,7 @@ export default class Section extends Component {
     const children = this.props.children.map(child => child.render()).join(' ');
     return `
       <section class="${styles.section}">
+      <h1>'Murica</h1>
         ${children}
       </section>`;
   }

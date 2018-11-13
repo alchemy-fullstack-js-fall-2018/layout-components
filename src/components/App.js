@@ -12,7 +12,7 @@ export default class App extends Component {
     const section = new Section({
       children: [
         new Image({
-          images: ['dummy1.jpg', 'dummy2.jpg', 'dummy3.png']
+          images: ['dummy2.jpg', 'dummy1.jpg', 'dummy3.png']
         })
       ]
     });

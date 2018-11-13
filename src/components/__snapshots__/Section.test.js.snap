@@ -1,17 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header Component has finalized scaffolding/styling 1`] = `
-"
-      <header class=\\"header\\">
-        <nav>
-          <a href=\\"/heyoooooo\\">heyoooooo</a>
-        </nav>
-      </header>"
-`;
-
 exports[`Section Component has finalized scaffolding/styling 1`] = `
 "
       <section class=\\"section\\">
-        <h1>DURR HURR 'MURICA.</h1>
+      <h1>'Murica</h1>
+        
+        <div class=\\"image\\">
+          <img src=\\"./src/assets/dummy2.jpg\\"></img> <img src=\\"./src/assets/dummy1.jpg\\"></img> <img src=\\"./src/assets/dummy3.png\\"></img>
+        </div>
+       
       </section>"
 `;

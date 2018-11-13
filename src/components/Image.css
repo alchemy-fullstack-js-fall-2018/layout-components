@@ -1,10 +1,13 @@
 .image {
 display: flex;
-flex-direction: column;
+flex-direction: row;
+flex-wrap: wrap;
 align-items: center;
-justify-content: space-evenly;
+justify-self: center;
+justify-content: space-around;
 img {
-  width: 300px;
+  margin: 10px;
+  width: 350px;
   height: auto;
 }
 }
