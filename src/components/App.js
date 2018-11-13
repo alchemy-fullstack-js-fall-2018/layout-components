@@ -13,6 +13,10 @@ export default class App extends Component {
       content: 'Hey I\'m a section'
     });
 
+    const midSection = new Section({
+      content: 'Hey me too'
+    });
+
     const footer = new Footer({
       text:  '&copy; 2018 Alex Rankin'
     });
@@ -21,6 +25,7 @@ export default class App extends Component {
     ${header.render()}
     <h1>${this.props.message}</h1>
     ${topSection.render()}
+    ${midSection.render()}
     ${footer.render()}
     `;
   }

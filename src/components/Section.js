@@ -1,11 +1,12 @@
 import Component from './Component';
+import styles from './Section.css';
 
 export default class Section extends Component {
   render() {
     const content = this.props.content;
 
     return `
-      <section>${content}</section>
+      <section class="${styles.section}">${content}</section>
     `;
   }
 }

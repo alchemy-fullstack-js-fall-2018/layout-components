@@ -2,6 +2,6 @@
 
 exports[`section should be a section 1`] = `
 "
-      <section>Hey I'm a section</section>
+      <section class=\\"section\\">Hey I'm a section</section>
     "
 `;
