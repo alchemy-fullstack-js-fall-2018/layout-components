@@ -1,21 +1,15 @@
-import Component from './Component';
-import styles from './Projects.css';
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Projects component should be a project section 1`] = `
+"<section class=\\"projectSection\\">
+      <h3>Projects</h3>
 
-export default class Projects extends Component {
-  render() {
-    const projectContent = `<h3>Projects</h3>
-
-    <div id="projects"><h4>${this.props.project1}</h4>
+    <div id=\\"projects\\"><h4>Dog match</h4>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique</p>
-    <h4>${this.props.project2}</h4>
+    <h4>Salmon Cookies</h4>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique</p>
-    <h4>${this.props.project3}</h4>
+    <h4>Day planner</h4>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique</p></div>
-    `;
-
-    return `<section class="${styles.projectSection}">
-      ${projectContent}
-    </section>`;
-  };
-}
+    
+    </section>"
+`;

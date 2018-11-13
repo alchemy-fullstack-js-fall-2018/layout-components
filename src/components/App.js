@@ -1,7 +1,9 @@
 import Component from './Component';
 import Header from './Header';
-import Footer from './Footer';
 import styles from './App.css';
+import Projects from './Projects';
+import Services from './Services';
+import Footer from './Footer';
 
 export default class App extends Component {
 
@@ -11,17 +13,25 @@ export default class App extends Component {
     })
 
     const footer = new Footer({
-      footerContent: ['Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique']
+      footerContent: 'Footer area'
     })
 
+    const projectSection = new Projects({
+      project1: 'Dog match',
+      project2: 'Salmon Cookies',
+      project3: 'Day planner'
+    })
 
+    const services = new Services({
+      service: ['Design', 'Programming', 'Freelancing']
+    })
 
     return `
       ${header.render()}
       <h1 class="${styles.main}">${this.props.message}</h1>
+      ${projectSection.render()}
+      ${services.render()}
       ${footer.render()}
-
       `;
-
   }
 }

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services component should be a project section 1`] = `
+"<section class=\\"services\\">
+      
+    <div id=\\"services\\">
+    <h3>Services</h3>
+    <p>Design,Programming,Freelancing</p> </div>
+    </section>"
+`;
