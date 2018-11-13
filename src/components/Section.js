@@ -8,7 +8,7 @@ export default class Section extends Component {
 
     const teamAbout = this.props.teams.map(team => {
       return `
-        <div class="${styles.tile}">
+        <div class="${styles.tile} ${styles[`_${team.name}`]}">
           <h2>${team.name}</h2>
           <p>${team.story}</p>
         </div>
@@ -17,7 +17,7 @@ export default class Section extends Component {
 
     return `
       <section id="${styles.container}">
-        ${teamAbout}
+        ${teamAbout.join(' ')}
       </section>
     `;
   }
