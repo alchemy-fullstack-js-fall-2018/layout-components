@@ -14,40 +14,15 @@ export default class App extends Component {
     ${header.render()}
     <h1>${this.props.message}</h1>
     `;
-  }
+  };
 }
-// **SECTIONS AND FOOTER:**
+  render() {
+    const sectionOne = new Section({
+    });
+    
+    return `
+    ${section.render()}
+    <h1>${this.props.message}</h1>
+    `;
+  };
 
-//   render() {
-//     // **Section**
-//     const sectionOne = new Section({
-//     //   links: ['about', 'blog', 'contact']
-//     });
-    
-//     return `
-//     ${section.render()}
-//     <h1>${this.props.message}</h1>
-//     `;
-//   }
-//   render() {
-//     // **Section**
-//     const sectionTwo = new Section({
-//     //   links: ['about', 'blog', 'contact']
-//     });
-    
-//     return `
-//     ${section.render()}
-//     <h1>${this.props.message}</h1>
-//     `;
-//   }
-//   render() {
-//     // **Footer**
-//     const footer = new Footer({
-//     //   links: ['about', 'blog', 'contact']
-//     });
-    
-//     return `
-//     ${footer.render()}
-//     <h1>${this.props.message}</h1>
-//     `;
-//   }

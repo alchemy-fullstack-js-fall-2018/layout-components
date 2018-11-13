@@ -1,7 +1,7 @@
 import App from './components/App';
 
 const app = new App({
-  message: 'hi1234'
+  message: 'helloooworld'
 });
 
 app.attach(document.getElementById('root'));
