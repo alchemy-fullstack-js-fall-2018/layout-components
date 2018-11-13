@@ -1,0 +1,15 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  width: 100vw;
+  background-color: blue;
+  text-align: center;
+  a {
+    position: relative;
+    top: 50px;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+  }
+}

@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot --mode development"
   },
   "repository": {
     "type": "git",
@@ -16,6 +19,12 @@
     "url": "https://github.com/RyLuras/layout-components/issues"
   },
   "homepage": "https://github.com/RyLuras/layout-components#readme",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
