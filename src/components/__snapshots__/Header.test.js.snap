@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component has finalized scaffolding/styling 1`] = `
+"
+      <header class=\\"header\\">
+        <nav>
+          <a href=\\"/heyoooooo\\">heyoooooo</a>
+        </nav>
+      </header>"
+`;

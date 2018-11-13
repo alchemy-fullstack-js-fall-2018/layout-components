@@ -3,9 +3,10 @@ import styles from './Section.css';
 
 export default class Section extends Component {
   render() {
+    const children = this.props.children.map(child => child.render()).join(' ');
     return `
       <section class="${styles.section}">
-        <h1>DURR HURR 'MURICA.</h1>
+        ${children}
       </section>`;
   }
 }
