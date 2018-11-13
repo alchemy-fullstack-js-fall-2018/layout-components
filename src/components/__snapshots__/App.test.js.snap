@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should be an app 1`] = `
+"
+      <main id=\\"main\\">
+        
+      <header class=\\"header\\">
+        <h1>Football Teams</h1>
+      </header>
+    
+        
+      <section id=\\"container\\">
+        
+        <div class=\\"tile _Raiders\\">
+          <h2>Raiders</h2>
+          <p>They are doing really terribly. I blame Gruden.</p>
+        </div>
+       
+        <div class=\\"tile _Patriots\\">
+          <h2>Patriots</h2>
+          <p>It's incredible how they continue to have success, year after year.</p>
+        </div>
+       
+        <div class=\\"tile _49ers\\">
+          <h2>49ers</h2>
+          <p>Everything has been downhill since they ran Jim Harbaugh out of town...</p>
+        </div>
+       
+        <div class=\\"tile _Rams\\">
+          <h2>Rams</h2>
+          <p>Nobody likes them</p>
+        </div>
+       
+        <div class=\\"tile _Ravens\\">
+          <h2>Ravens</h2>
+          <p>Year in and year out, they have the best defense</p>
+        </div>
+      
+      </section>
+    
+        
+      <footer class=\\"footer\\">
+        <p>Made to entertain - 2018</p>
+      </footer>
+    
+      </main>
+    "
+`;
