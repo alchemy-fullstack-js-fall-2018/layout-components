@@ -3,13 +3,13 @@ import styles from './Section.css';
 
 export default class Section extends Component {
   render() {
-    const sectionTitle = this.props.sectionTitle.map(title => {
+    const sectionTitles = this.props.sectionTitles.map(title => {
       return `<h1>${title}</h1>`;
     });
 
     return `
     <section>
-      <div>${sectionTitle.join(' ')}</div>
+      <div>${sectionTitles.join(' ')}</div>
     </section>
     `;
   }

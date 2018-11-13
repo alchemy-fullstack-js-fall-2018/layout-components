@@ -1,0 +1,23 @@
+.icons {
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  i {
+    flex-basis: auto;
+    font-size: 70px;
+  }
+  #gmail:hover {
+    color: red;
+    }
+  #linkedin:hover {
+    color: blue;
+  }
+  #github{
+    opacity: 0.9;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
