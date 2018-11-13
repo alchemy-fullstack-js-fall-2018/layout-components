@@ -9,6 +9,9 @@
       "jest": true
     },
     "extends": ["eslint:recommended"],
+    "globals": {
+      "document": true
+    },
     "rules": {
         "no-console": "warn",
         "indent": ["error", 2, { "SwitchCase": 1 }],
