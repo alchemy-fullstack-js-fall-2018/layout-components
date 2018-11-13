@@ -1,4 +1,5 @@
 export default class Component {
+
   constructor(props) {
     this.props = props || {};
   }
@@ -10,4 +11,5 @@ export default class Component {
   render() {
     throw Error('Component should render html');
   }
+
 }
