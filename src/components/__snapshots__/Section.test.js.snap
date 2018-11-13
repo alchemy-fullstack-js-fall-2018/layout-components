@@ -3,8 +3,8 @@
 exports[`Section Component is a section 1`] = `
 "
       <section>
-        <div class=\\"container\\">
-          <img src=\\"http://en.bcdn.biz/Images/2018/6/6/6483b0a6-667e-4209-9b66-5b4bce6b4e53.jpg\\">
+        <div>
+          
         </div>
       </section>
     "
