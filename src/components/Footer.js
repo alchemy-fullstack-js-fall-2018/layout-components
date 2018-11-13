@@ -1,11 +1,12 @@
 import Component from './Component';
 
+import styles from './Footer.css';
 export default class Footer extends Component {
 
   render() {
 
     return `
-      <footer>
+      <footer class="${styles.footer}">
         <p>Made to entertain - 2018</p>
       </footer>
     `;
