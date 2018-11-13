@@ -1,0 +1,12 @@
+body {
+  background-color: salmon;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 80px;
+  margin: 60px;
+  a {
+    text-decoration: none;
+  }
+}

@@ -1,7 +1,8 @@
 import App from './components/App';
 
 const app = new App({
-  message: 'hi1234'
+  message: 'hi there this is working'
 });
 
-app.attach(document.getElementById('root'));
+app.attach(document.getElementById('header'));
+app.attach(document.getElementById('footer'));
