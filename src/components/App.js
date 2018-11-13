@@ -4,20 +4,11 @@ import Footer from './Footer';
 import Section from './Section';
 
 import styles from './App.css';
+
+import { teams } from '../data/teams';
 export default class App extends Component {
 
   render() {
-
-    const teams = [
-      {
-        name: 'Raiders',
-        story: 'They are doing really terribly. I blame Gruden.'
-      },
-      {
-        name: 'Patriots',
-        story: 'It\'s incredible how they continue to have success, year after year.'
-      },
-    ];
 
     const header = new Header();
     const footer = new Footer();
