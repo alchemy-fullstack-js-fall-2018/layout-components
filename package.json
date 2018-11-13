@@ -1,7 +1,7 @@
 {
-  "name": "class21_backend-review_components",
+  "name": "layout-components",
   "version": "1.0.0",
-  "description": "## Agenda",
+  "description": "## vanilla JS component lab",
   "main": "index.js",
   "scripts": {
     "test": "jest",
