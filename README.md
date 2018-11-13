@@ -11,7 +11,7 @@ Wrapping my head around the structure of Webpack and React, practicing passing p
 ## Setup/Installation Requirements
 
 * if you so wish, install dependencies with: npm i
-* otherwise just load the build
+* otherwise just open the index.html file from the dist folder
 
 ## Technologies Used
 
