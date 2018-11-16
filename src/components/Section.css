@@ -1,0 +1,12 @@
+.section {
+  position: absolute;
+  text-align: center;
+  background-color: lightgrey;
+  width: 100vw;
+  height: 800px;
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}

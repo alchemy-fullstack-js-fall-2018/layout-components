@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component has finalized scaffolding/styling 1`] = `
+"
+      <footer class=\\"footer\\">
+        <nav>
+          <a href=\\"/eeeeeyyyyyyeah!\\">eeeeeyyyyyyeah!</a>
+        </nav>
+      </footer>"
+`;
