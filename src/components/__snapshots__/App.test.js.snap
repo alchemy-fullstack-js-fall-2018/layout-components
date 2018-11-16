@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should be an app 1`] = `
+"
+    <h1 class=\\"main\\">I AM APP</h1>
+    
+      <header class=\\"header\\">
+        <nav>
+          <a href=\\"/about\\">about</a> <a href=\\"/blog\\">blog</a> <a href=\\"/contact\\">contact</a>
+        </nav>
+      </header>
+    
+        <section class=\\"section\\">
+          <p class=\\"p\\">I am section 1.</p>
+        </section>
+    
+    
+        <section class=\\"section\\">
+          <p class=\\"p\\">I am section 2.</p>
+        </section>
+    
+    
+        <footer class=\\"footer\\">
+          <p>Special thanks to: Mom, Dad, my agent</p>
+        </footer>
+    
+    "
+`;
