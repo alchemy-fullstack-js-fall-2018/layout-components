@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section should be a section 1`] = `
+"
+            <section class=\\"section\\">
+                <h2>I Like Coding</h2>
+                <p>It's such a relief to be writing JavaScript again.</p> <p>After CSS, it feels like coming home.</p>
+            </section>"
+`;
