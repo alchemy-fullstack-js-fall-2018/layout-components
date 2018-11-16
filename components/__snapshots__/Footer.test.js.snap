@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should be a footer 1`] = `
+"
+      <footer class=\\"footer\\">
+          foooooteeerrrrr
+      </footer>"
+`;
