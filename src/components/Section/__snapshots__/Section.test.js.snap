@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section Component should be a section 1`] = `
+"
+      <section id=\\"container\\">
+        
+        <div class=\\"tile _Raiders\\">
+          <h2>Raiders</h2>
+          <p>They are doing really terribly. I blame Gruden.</p>
+        </div>
+       
+        <div class=\\"tile _Patriots\\">
+          <h2>Patriots</h2>
+          <p>It's incredible how they continue to have success, year after year.</p>
+        </div>
+      
+      </section>
+    "
+`;

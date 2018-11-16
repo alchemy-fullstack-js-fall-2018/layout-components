@@ -1,0 +1,33 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.tile {
+  margin: 5px;
+}
+
+._Raiders {
+  background-color: black;
+  color: silver;
+}
+
+._Patriots {
+  background-color: navy;
+  color: red;
+}
+
+._49ers {
+  background-color: red;
+  color: gold;
+}
+
+._Rams {
+  background-color: blue;
+  color: gold;
+}
+
+._Ravens {
+  background-color: purple;
+  color: black;
+}
