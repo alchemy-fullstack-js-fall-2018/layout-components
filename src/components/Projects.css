@@ -13,4 +13,5 @@ h3, h4 {
 #projects {
   display: flex;
   justify-content: space-evenly;
+  height: 500px;
 }

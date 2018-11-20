@@ -13,13 +13,24 @@ export default class App extends Component {
     })
 
     const footer = new Footer({
-      footerContent: 'Footer area'
+      footerContent: 'I like pizza and sushi; however, I like coding more.'
     })
 
     const projectSection = new Projects({
-      project1: 'Dog match',
-      project2: 'Salmon Cookies',
-      project3: 'Day planner'
+      projects: [
+        {
+          name: 'Dog match',
+          details: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos!'
+        },
+        {
+          name: 'Salmon Cookies',
+          details: 'amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos!'
+        },
+        {
+          name: 'Day planner',
+          details: 'veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique'
+        }
+      ]
     })
 
     const services = new Services({

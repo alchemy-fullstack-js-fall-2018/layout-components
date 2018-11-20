@@ -2,8 +2,7 @@
 
 exports[`Footer component should be a footer 1`] = `
 "<footer class=\\"footer\\">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique
     <h3>Stuff About Me</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quasi consequuntur veniam, eaque numquam sint tenetur velit in, voluptas quisquam eos! Possimus adipisci natus obcaecati inventore quaerat facilis enim similique</p>
+    I like pizza and sushi; however, I like coding more.
     </footer>"
 `;
