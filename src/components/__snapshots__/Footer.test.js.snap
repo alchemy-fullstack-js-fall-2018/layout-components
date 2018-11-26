@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`footer should be a footer 1`] = `
-"
-        <footer class=\\"footer\\">
-            &copy; 2018 Alex Rankin
-        </footer>
-    "
-`;

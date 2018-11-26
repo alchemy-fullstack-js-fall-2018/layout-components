@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`section should be a section 1`] = `
-"
-      <section class=\\"section\\"></section>
-    "
-`;
